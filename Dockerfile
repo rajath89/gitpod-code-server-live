@@ -77,7 +77,10 @@
 
 
 FROM mattermost/focalboard
+USER root
 
 COPY workspaceFolder/config.json /opt/focalboard/config.json
+
+USER focalboard
 
 EXPOSE 8000
