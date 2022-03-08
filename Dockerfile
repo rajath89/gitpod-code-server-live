@@ -78,4 +78,6 @@
 
 FROM mattermost/focalboard
 
+COPY workspaceFolder/config.json /opt/focalboard/config.json
+
 EXPOSE 8000

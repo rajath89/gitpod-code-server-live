@@ -1,0 +1,17 @@
+{
+    "serverRoot": "http://localhost:8000",
+    "port": 8000,
+    "dbtype": "postgres",
+    "dbconfig": "postgresql://postgres:V5eIaFyGzHCbIz6jcCgU@containers-us-west-1.railway.app:6533/railway",
+    "postgres_dbconfig": "dbname=boards sslmode=disable",
+    "useSSL": false,
+    "webpath": "./pack",
+    "filespath": "./files",
+    "telemetry": true,
+    "prometheus_address": ":9092",
+    "session_expire_time": 2592000,
+    "session_refresh_time": 18000,
+    "localOnly": false,
+    "enableLocalMode": true,
+    "localModeSocketLocation": "/var/tmp/focalboard_local.socket"
+}
