@@ -7,4 +7,4 @@ RUN [ "/bin/sh", "-c", "ln -s /home/openvscode-server-v*/server.sh /home/server.
 
 USER openvscode-server
 
-ENTRYPOINT [ "/bin/sh", "-c", "/home/server.sh"]
+#ENTRYPOINT [ "/bin/sh", "-c", "/home/server.sh"]
